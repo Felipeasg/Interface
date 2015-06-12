@@ -24,11 +24,11 @@ void ApplicationWindow::createTranslatePopups()
         myImportPopup = new QMenu( QObject::tr( "MNU_FILE_IMPORT" ), this );
 
     if ( !myExportPopup )
-	    myExportPopup = new QMenu( QObject::tr( "MNU_FILE_EXPORT" ), this );
+        myExportPopup = new QMenu( QObject::tr( "MNU_FILE_EXPORT" ), this );
 
 	QAction* a;
-	a = new QAction( QObject::tr("MNU_IMPORT_BREP"), this );
-	a->setStatusTip( QObject::tr("TBR_IMPORT_BREP") );
+    a = new QAction( QObject::tr("MNU_IMPORT_BREP"), this );
+    a->setStatusTip( QObject::tr("TBR_IMPORT_BREP") );
 	connect( a, SIGNAL( triggered() ), this, SLOT( onImport() ) );
 	myCasCadeTranslateActions.insert( FileImportBREPId, a );
 	myImportPopup->addAction( a );

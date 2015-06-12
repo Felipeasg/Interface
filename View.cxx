@@ -168,9 +168,6 @@ View::View( Handle(AIS_InteractiveContext) theContext, QWidget* parent )
   setFocusPolicy( Qt::StrongFocus );
   setAttribute( Qt::WA_PaintOnScreen );
   setAttribute( Qt::WA_NoSystemBackground );
-
-  this->init();
-
 }
 
 View::~View()
