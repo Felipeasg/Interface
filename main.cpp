@@ -1,18 +1,17 @@
-#include <QApplication>
-
+//#include <QApplication>
 #include "Application.h"
-#include <QTranslator>
 
-#include "Translate.h"
+#include <QApplication>
+#include <QTranslator>
+#include <QPixmap>
+#include <QLocale>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-
+    QApplication a( argc, argv );
 
     QString resDir = ApplicationCommonWindow::getResourceDir();
-//    QString resTutDir = ApplicationTut::getTutResourceDir();
-
+    QString resIEDir = ApplicationWindow::getIEResourceDir();
 
     QTranslator strTrans( 0 );
     Standard_Boolean isOK = strTrans.load( "Common-string", resDir );
@@ -24,19 +23,18 @@ int main(int argc, char *argv[])
     if( isOK )
       a.installTranslator( &iconTrans );
 
-    QTranslator interfaceTrans(0);
-    isOK = interfaceTrans.load( "Interface-string", resDir );
+    QTranslator strIETrans( 0 );
+    isOK = strIETrans.load( "Interface-string", resIEDir );
     if( isOK )
-      a.installTranslator( &interfaceTrans );
+      a.installTranslator( &strIETrans );
 
+    QObject::connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
-
-    ApplicationWindow* mw = new ApplicationWindow();    
-    mw->setWindowTitle(QObject::tr("Application OCC SAMPLE"));
-
-
-
+    ApplicationWindow* mw = new ApplicationWindow();
+          mw->setWindowTitle( QObject::tr( "TIT_SAMPLE" ) );
+    mw->setWindowIcon( QPixmap( resDir + QString( "/" ) + QObject::tr( "ICON_SAMPLE" ) ) );
     mw->show();
 
     return a.exec();
+
 }
