@@ -226,8 +226,8 @@ void ApplicationWindow::onSelectionChanged()
 
 QString ApplicationWindow::getIEResourceDir()
 {
-  static QString aResourceDir =
-    QString::fromUtf8 (qgetenv ("CSF_IEResourcesDefaults").constData());
+  static QString aResourceDir = ":/res";
+    //QString::fromUtf8 (qgetenv ("CSF_IEResourcesDefaults").constData());
   
   return aResourceDir;
 }

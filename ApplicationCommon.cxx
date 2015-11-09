@@ -3,6 +3,8 @@
 #include "DocumentCommon.h"
 #include "View.h"
 
+#include <QDebug>
+
 #include <QFrame>
 #include <QVBoxLayout>
 #include <QMenuBar>
@@ -60,9 +62,15 @@ void ApplicationCommonWindow::createStandardOperations()
 
   QString dir = getResourceDir() + QString( "/" );
 
+
+
   newIcon = QPixmap( dir + QObject::tr("ICON_NEW") );
   helpIcon = QPixmap( dir + QObject::tr("ICON_HELP") );
   closeIcon = QPixmap( dir + QObject::tr("ICON_CLOSE") );
+
+  qDebug() << dir + QObject::tr("ICON_NEW");
+
+  QString dir2 = dir + QObject::tr("ICON_NEW");
 
   QAction * fileNewAction, * fileCloseAction, * filePrefUseVBOAction,
           * fileQuitAction, * viewToolAction, * viewStatusAction, * helpAboutAction;
@@ -578,8 +586,8 @@ void ApplicationCommonWindow::onSetMaterial( int theMaterial )
 
 QString ApplicationCommonWindow::getResourceDir()
 {
-  static QString aResourceDir =
-    QString::fromUtf8 (qgetenv ("CSF_ResourcesDefaults").constData());
+  static QString aResourceDir = ":/res";
+    //QString::fromUtf8 (qgetenv ("CSF_ResourcesDefaults").constData());
   
   return aResourceDir;
 }

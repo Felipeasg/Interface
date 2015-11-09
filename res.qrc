@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/antialiasing.png</file>
+        <file>res/cascade.png</file>
+        <file>res/close.png</file>
+        <file>res/Common-icon.qm</file>
+        <file>res/Common-string.qm</file>
+        <file>res/cursor_rotate.png</file>
+        <file>res/cursor_zoom.png</file>
+        <file>res/document.png</file>
+        <file>res/help.png</file>
+        <file>res/Interface-string.qm</file>
+        <file>res/lamp.png</file>
+        <file>res/new.png</file>
+        <file>res/raytracing.png</file>
+        <file>res/reflections.png</file>
+        <file>res/shadows.png</file>
+        <file>res/tile.png</file>
+        <file>res/tool_color.png</file>
+        <file>res/tool_delete.png</file>
+        <file>res/tool_material.png</file>
+        <file>res/tool_shading.png</file>
+        <file>res/tool_transparency.png</file>
+        <file>res/tool_wireframe.png</file>
+        <file>res/tool-shading.png</file>
+        <file>res/view_axo.png</file>
+        <file>res/view_back.png</file>
+        <file>res/view_bottom.png</file>
+        <file>res/view_comp_off.png</file>
+        <file>res/view_comp_on.png</file>
+        <file>res/view_fitall.png</file>
+        <file>res/view_fitarea.png</file>
+        <file>res/view_front.png</file>
+        <file>res/view_glpan.png</file>
+        <file>res/view_left.png</file>
+        <file>res/view_pan.png</file>
+        <file>res/view_reset.png</file>
+        <file>res/view_right.png</file>
+        <file>res/view_rotate.png</file>
+        <file>res/view_top.png</file>
+        <file>res/view_zoom.png</file>
+    </qresource>
+</RCC>

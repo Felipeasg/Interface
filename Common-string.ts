@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS>
+<TS version="2.1">
+<context>
+    <name>ApplicationCommonWindow</name>
+    <message>
+        <source>File Operations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shape Operations</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MDIWindow</name>
+    <message>
+        <source>View Operations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ray-tracing Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>QObject</name>
     <message>
@@ -188,7 +211,7 @@
     </message>
     <message>
         <source>INF_NULL_SHAPE</source>
-        <translation>Select the shape to export.</translation>
+        <translation type="vanished">Select the shape to export.</translation>
     </message>
     <message>
         <source>MNU_WINDOW</source>
@@ -196,7 +219,7 @@
     </message>
     <message>
         <source>TBR_WINDOW</source>
-        <translation>Window</translation>
+        <translation type="vanished">Window</translation>
     </message>
     <message>
         <source>BTN_PLASTIC</source>
@@ -248,7 +271,7 @@
     </message>
     <message>
         <source>TBR_VIEW</source>
-        <translation>View</translation>
+        <translation type="vanished">View</translation>
     </message>
     <message>
         <source>TBR_ZOOM</source>
@@ -324,7 +347,7 @@
     </message>
     <message>
         <source>TBR_MATER</source>
-        <translation>Material</translation>
+        <translation type="vanished">Material</translation>
     </message>
     <message>
         <source>TBR_RIGHT</source>
@@ -352,7 +375,7 @@
     </message>
     <message>
         <source>TIT_INF</source>
-        <translation>Info</translation>
+        <translation type="vanished">Info</translation>
     </message>
     <message>
         <source>BTN_GOLD</source>
@@ -370,7 +393,7 @@
         <source>MNU_STATUS_BAR</source>
         <translation>&amp;Statusbar</translation>
     </message>
-   <message>
+    <message>
         <source>TIT_ERROR</source>
         <translation>Error</translation>
     </message>
@@ -453,6 +476,365 @@
     <message>
         <source>MNU_WINDOW_TILE</source>
         <translation>&amp;Tile</translation>
+    </message>
+    <message>
+        <source>MNU_FILE_IMPORT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_FILE_EXPORT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_IMPORT_BREP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_IMPORT_BREP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_BREP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_BREP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_IMPORT_CSFDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_IMPORT_CSFDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_CSFDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_CSFDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_IMPORT_IGES</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_IMPORT_IGES</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_IGES</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_IGES</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_IMPORT_STEP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_IMPORT_STEP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_STEP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_STEP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_STL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_STL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_VRML</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_VRML</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MNU_EXPORT_IMAGE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_EXPORT_IMAGE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRANSLATE_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_NEW</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_HELP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_CLOSE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CTRL+N</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CTRL+W</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_USE_VBO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CTRL+Q</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_WIRE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_SHAD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_COLOR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_MATER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_TRANS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_DEL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_COPER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_WINDOW_NEW3D</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_WINDOW_CASCADE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_WINDOW_TILE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TIT_ABOUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_DOC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_APP_EXPORT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRANSLATE_FILENOTFOUND</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_FILTER_FORMAT_ALL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_APP_IMPORT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_BREP_MOIFOLD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_BREP_FACETED</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_BREP_SHELL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_BREP_CURVE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRIANGLES_YES</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRIANGLES_NO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_FACET_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_DATA_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_WRITING_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_NOTHING_ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRANSLATE_ERROR_CANTSAVEFILE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRANSLATE_ERROR_INVALIDSHAPE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INF_TRANSLATE_ERROR_CANTSAVEDATA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_CURSOR_ZOOM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_CURSOR_ROTATE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_FITALL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_FITAREA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_ZOOM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_PAN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_GLOBALPAN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_FRONT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_BACK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_TOP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_BOTTOM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_LEFT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_RIGHT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_AXO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_ROTATION</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_RESET</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_HLROFF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_VIEW_HLRON</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_RAYTRACING</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_SHADOWS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_REFLECTIONS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ICON_TOOL_ANTIALIASING</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TBR_CH_ENV_MAP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application OCC SAMPLE</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>View</name>
+    <message>
+        <source>Open File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Image Files (*.bmp *.gif *.jpg *.jpeg *.png *.tga)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

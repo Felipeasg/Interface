@@ -46,6 +46,11 @@ DEFINES += CSFDB
 
 INCLUDEPATH += /usr/include/oce
 
+TRANSLATIONS = Common-icon.ts  \
+                Common-string.ts  \
+                Interface-string.ts
+
+
 LIBS += -L/usr/lib64/oce -lTKernel -lPTKernel -lTKMath -lTKService -lTKV3d -lTKOpenGl \
         -lTKBRep -lTKIGES -lTKSTL -lTKVRML -lTKSTEP -lTKSTEPAttr -lTKSTEP209 \
         -lTKSTEPBase -lTKShapeSchema -lTKGeomBase -lTKGeomAlgo -lTKG3d -lTKG2d \
@@ -53,3 +58,6 @@ LIBS += -L/usr/lib64/oce -lTKernel -lPTKernel -lTKMath -lTKService -lTKV3d -lTKO
         -lTKCDF -lTKBool -lTKBO -lTKFillet -lTKOffset \
         -lX11 \
         #-lfreeimage
+
+RESOURCES += \
+    res.qrc

@@ -65,12 +65,10 @@ View::View( Handle(AIS_InteractiveContext) theContext, QWidget* parent )
   myRaytraceActions( 0 ),
   myBackMenu( NULL )
 {
-
 #if !defined(_WIN32) && !defined(__WIN32__) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX))
-  //XSynchronize( x11Display(),true ); // it is possible to use QApplication::syncX();
-  XSynchronize( QX11Info::display(),true ); // it is possible to use QApplication::syncX();
-
+    XSynchronize( QX11Info::display(), true);
 #endif
+
 
   myFirst = true;
   myContext = theContext;
@@ -168,6 +166,10 @@ View::View( Handle(AIS_InteractiveContext) theContext, QWidget* parent )
   setFocusPolicy( Qt::StrongFocus );
   setAttribute( Qt::WA_PaintOnScreen );
   setAttribute( Qt::WA_NoSystemBackground );
+
+  this->resize(this->width(), this->height());
+  this->init();
+
 }
 
 View::~View()
